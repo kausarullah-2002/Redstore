@@ -1,0 +1,129 @@
+@media (max-width:810px) {
+          /* =============start header part ==================== */
+          .container{
+                    max-width: 1600px;
+                    min-width: 200px;
+          }
+          nav{
+                    font-size: 30px;
+                    margin-left: 60px;
+                    margin-top: 50px;
+          }
+          header img{
+                    width: 200px;
+                    height: 50px;
+          }
+          header{
+                    width: 810px;
+          }
+          nav ul li a:hover{
+                    color: red;
+          }
+          .sec{
+                    margin-left: 180px;
+                    height: 40px;
+          }
+          /* ===============start content part =================== */
+          .content h1{
+                    margin-top: 90px;
+                    margin-left: 25px;
+                    font-size: 40px;
+          }
+          .content p{
+                    margin-left: 20px;
+                    font-size: 15px;
+          }
+          .now{
+                    margin-left: 40px;
+          }
+          .content img{
+                    margin-top: -100px;
+                    margin-left: 380px;
+                    width: 400px;
+                    height: 400px;
+          }
+          .pic{
+                    display: grid;
+                    grid-template-columns: auto;
+          }    
+          .pic img{
+                    display: flex;
+                    width: 500px;
+                    margin-left: -200px;
+
+          } 
+          .container h2{
+                    margin-top: 800px;
+                    font-size: 50px;
+          }         
+          .lin{
+                    margin-left: 200px;
+                    margin-top: 5px;
+                    width: 180px;
+                    margin-bottom: 80px;
+          }
+          .containera{
+                    display: grid;
+                    grid-template-columns: auto;
+          }
+          .containera img{
+                    width: 480px;
+                    height: 480px;
+                    margin-left: 180px;
+                    margin-top: 0;
+          }
+          .containera img:hover{
+                    transition: margin-bottom 10s;
+          }
+          .containera h3{
+                    margin-left: 300px;
+                    margin-top: 20px;
+          }
+          .start {
+                    margin-left: 300px;
+                    margin-top: 20px;
+          }
+          .containera p{
+                    margin-left: 300px;
+                    margin-top: 20px;
+                    margin-bottom: 50px;
+          }
+          /* ===========================second coantainera ============================ */
+          #containera{
+                    display: grid;
+                    grid-template-columns: auto;
+                    margin-top: 100px;
+          }
+          #containera img{
+                    width: 480px;
+                    display: flex;
+                    height: 480px;
+                    margin-left: 180px;
+          }
+          #containera img:hover{
+                    transition: margin-bottom 10s;
+          }
+          #containera h3{
+                    margin-left: 300px;
+                    margin-top: 20px;
+          }
+          .start {
+                    margin-left: 300px;
+                    margin-top: 20px;
+          }
+          #containera p{
+                    margin-left: 300px;
+                    margin-top: 20px;
+                    margin-bottom: 50px;
+          }
+          #ls{
+                    margin-left: 240px;
+                    margin-top: -80px;
+                    margin-bottom: 80px;
+          }
+          #las{
+                    margin-left: -10px;
+                    margin-top: 10px;
+                    margin-bottom: 80px;
+          }          
+}
